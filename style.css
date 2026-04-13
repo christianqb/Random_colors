@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerTopo {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* espaço entre elementos */
+}
+
+#containerResultado {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copiarBtn {
+    padding: 10px;
+    cursor: pointr;
+}
+
+#corTexto {
+    font-weight: bold;
+}
+
+#Btn {
+    padding: 20px;
+}
+
+#randomBtn {
+    background-color: hsla(0, 0%, 50%, 0.596);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#randomBtn:hover {
+    background-color: #333;
+}
+
+#nome {
+    font-weight: bold;
+}
